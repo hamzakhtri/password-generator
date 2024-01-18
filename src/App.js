@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import "./App.css";
 
+
+// complete password generator in react 
+
 function App() {
   const [length, setLength] = useState(8);
   const [NumAllowed, setNumAllowed] = useState(false);
